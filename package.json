@@ -1,0 +1,16 @@
+{
+  "name": "simpleproxy",
+  "version": "1.0.0",
+  "description": "a simple website proxy service",
+  "main": "start.js",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "author": "lzw-723",
+  "license": "GPL-3.0"
+}
